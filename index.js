@@ -1,7 +1,5 @@
 const {google} = require('googleapis');
-const fs = require('fs').promises;
 const {spawn} = require('child_process');
-const { write, read } = require('fs');
 
 const scopes = ['https://www.googleapis.com/auth/spreadsheets'];
 
